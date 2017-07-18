@@ -1,0 +1,55 @@
+.defaultshow{
+	display: none;
+}
+
+.buttonStyle {
+	/* button sizes */
+	width: 10% !important;
+	box-sizing:content-box;
+	height: 9vh!important;
+	white-space: normal !important;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* button colors */
+	background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.listStyle {
+	width: 100% !important;
+	margin-top: 10px;
+	margin-left: 5px !important;
+}
+
+#orderSidebar {
+	width: 40%;
+	float: left;
+	margin-top: 0.5%;
+	position: fixed;
+}
+
+#buttonsContainer {
+	width: 60%;
+	float: right;
+}
+
+.lineName {
+	width: 30%;
+	text-overflow: ellipsis;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.linePrice {
+	width: 30%;
+	float: right;
+}
+
+.lines {
+	padding: 2%;
+	margin-left: 1%;
+}

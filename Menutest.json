@@ -1,0 +1,669 @@
+{		
+		"Appetizer":[
+		{
+			"ID":"001",
+			"Name":"Vegetable Spring Roll (2)",
+			"CNAME":"春卷",
+			"Price":3.50
+		},
+		{
+			"ID":"002",
+			"Name":"Egg Roll (1)",
+			"CNAME":"蛋卷",
+			"Price":2.15
+		},
+		{
+			"ID":"003",
+			"Name":"Pork Dumplings",
+			"CNAME":"窩貼",
+			"Price":10.95
+		},
+		{
+			"ID":"004",
+			"Name":"Deep Fried Wonton",
+			"CNAME":"炸雲吞",
+			"Price":7.45
+		},
+		{
+			"ID":"005",
+			"Name":"Chicken Wings",
+			"CNAME":"雞翼",
+			"Price":10.95
+		}
+		],
+		"Soups":[
+				{
+			"ID":"006",
+			"Name":"Wonton Soup",
+			"CNAME":"雲吞湯",
+			"Sizes":["Small","Medium","Large"],
+			"CSizes":["細","中","大"],
+			"Price":[4.25,8.45,14.45]
+		},
+		{
+			"ID":"007",
+			"Name":"Wor Wonton Soup",
+			"Sizes":["Medium","Large"],
+			"CNAME":"窩雲吞湯",
+			"CSizes":["中","大"],
+			"Price":[10.45,17.45]
+		},
+		{
+			"ID":"008",
+			"Name":"Hot & Sour Soup",
+			"Sizes":["Medium","Large"],
+			"CNAME":"酸辣湯",
+			"CSizes":["中","大"],
+			"Price":[8.95,14.95]
+		},
+		{
+			"ID":"009",
+			"Name":"Chicken Noodle Soup",
+			"Sizes":["Small","Medium"],
+			"CNAME":"雞麵湯",
+			"CSizes":["細","中"],
+			"Price":[4.25,8.95]
+		}
+		],
+		"Seafood":[
+		{
+			"ID":"010",
+			"Name":"Salt & Pepper Seafood",
+			"CNAME":"椒鹽海鮮",
+			"Price":16.45
+		},
+		{
+			"ID":"011",
+			"Name":"Seafood with Mixed Vegetables",
+			"CNAME":"什菜海鮮",
+			"Price":16.45
+		},
+		{
+			"ID":"012",
+			"Name":"Seafood with Snow Peas",
+			"CNAME":"雪豆海鮮",
+			"Price":16.45
+		},
+		{
+			"ID":"013",
+			"Name":"Seafood with Black Bean Sauce",
+			"CNAME":"豉汁海鮮",
+			"Price":16.45
+		},
+		{
+			"ID":"014",
+			"Name":"Seafood with Curry Sauce",
+			"CNAME":"咖喱海鮮",
+			"Price":16.45
+		},
+		{
+			"ID":"015",
+			"Name":"Deep Fried Shrimp",
+			"Sauce":["S&S","Lemon"],
+			"CNAME":"炸蝦",
+			"Price":14.45
+		},
+		{
+			"ID":"016",
+			"Name":"Salt & Pepper Shrimp",
+			"CNAME":"椒鹽蝦",
+			"Price":14.45
+		},
+		{
+			"ID":"017",
+			"Name":"Shrimp with Mixed Vegetables",
+			"CNAME":"什菜蝦",
+			"Price":14.45
+		},
+		{
+			"ID":"018",
+			"Name":"Shrimp with Snow Peas",
+			"CNAME":"雪豆蝦",
+			"Price":14.45
+		},
+		{
+			"ID":"019",
+			"Name":"Shrimp with Broccoli",
+			"CNAME":"百加利蝦",
+			"Price":14.45
+		},
+		{
+			"ID":"020",
+			"Name":"Salt & Pepper Squid",
+			"CNAME":"椒鹽魷魚",
+			"Price":13.45
+		},
+		{
+			"ID":"021",
+			"Name":"Ginger Squid",
+			"CNAME":"干魷魚",
+			"Price":13.45
+		}
+		],
+		"Chicken":[
+				{
+			"ID":"022",
+			"Name":"Sweet & Sour Chicken Balls",
+			"CNAME":"甜酸雞球",
+			"Price":12.45
+		},
+		{
+			"ID":"023",
+			"Name":"Sweet & Soup Chicken",
+			"CNAME":"甜酸雞",
+			"Price":12.45
+		},
+		{
+			"ID":"024",
+			"Name":"Lemon Chicken",
+			"CNAME":"檸檬雞",
+			"Price":12.45
+		},
+		{
+			"ID":"025",
+			"Name":"Cashew Chicken",
+			"CNAME":"杏仁雞",
+			"Price":12.45
+		},
+		{
+			"ID":"026",
+			"Name":"Chicken with Mixed Vegetables",
+			"CNAME":"什菜雞",
+			"Price":12.45
+		},
+		{
+			"ID":"027",
+			"Name":"Chicken with Black Bean Sauce",
+			"CNAME":"豉汁雞",
+			"Price":12.45
+		},
+		{
+			"ID":"028",
+			"Name":"Black Pepper Chicken",
+			"CNAME":"黑椒雞",
+			"Price":12.45
+		},
+		{
+			"ID":"029",
+			"Name":"Ginger Chicken",
+			"CNAME":"干雞絲",
+			"Price":12.45
+		},
+		{
+			"ID":"030",
+			"Name":"Salt & Pepper Chicken",
+			"CNAME":"椒鹽雞",
+			"Price":12.45
+		},
+		{
+			"ID":"031",
+			"Name":"Cashew Gai Ding",
+			"CNAME":"杏仁雞丁",
+			"Price":12.45
+		},
+		{
+			"ID":"032",
+			"Name":"Kung Pao Chicken",
+			"CNAME":"宮保雞",
+			"Price":12.45
+		},
+		{
+			"ID":"033",
+			"Name":"Curry Chicken",
+			"CNAME":"咖喱雞",
+			"Price":12.45
+		},
+		{
+			"ID":"034",
+			"Name":"Thai Style Chicken",
+			"CNAME":"泰式雞",
+			"Price":12.45
+		},
+		{
+			"ID":"035",
+			"Name":"Orange Chicken",
+			"CNAME":"橙雞",
+			"Price":12.45
+		}
+		],
+		"Beef":[
+		{
+			"ID":"036",
+			"Name":"Ginger Beef",
+			"CNAME":"干牛絲",
+			"Price":12.45
+		},
+		{
+			"ID":"037",
+			"Name":"Beef with Mixed Vegetables",
+			"CNAME":"什菜牛肉",
+			"Price":12.45
+		},
+		{
+			"ID":"038",
+			"Name":"Beef Broccoli",
+			"CNAME":"牛肉百加利",
+			"Price":12.45
+		},
+		{
+			"ID":"039",
+			"Name":"Beef Mushroom",
+			"CNAME":"牛肉磨菇",
+			"Price":12.45
+		},
+		{
+			"ID":"040",
+			"Name":"Beef with Black Bean Sauce",
+			"CNAME":"豉汁牛肉",
+			"Price":12.45
+		},
+		{
+			"ID":"041",
+			"Name":"Black Pepper Beef",
+			"CNAME":"黑椒牛肉",
+			"Price":12.45
+		},
+		{
+			"ID":"042",
+			"Name":"Thai Style Beef",
+			"CNAME":"泰式牛肉",
+			"Price":12.45
+		},
+		{
+			"ID":"043",
+			"Name":"Curry Beef",
+			"CNAME":"咖喱牛肉",
+			"Price":12.45
+		}
+		],
+		"Pork":[
+		{
+			"ID":"044",
+			"Name":"Sweet & Sour Pork",
+			"CNAME":"咕嚕肉",
+			"Price":12.45
+		},
+		{
+			"ID":"045",
+			"Name":"Dry Pork Ribs",
+			"CNAME":"干豬骨",
+			"Price":12.45
+		},
+		{
+			"ID":"046",
+			"Name":"Sweet & Sour Spareribs",
+			"CNAME":"甜酸骨",
+			"Price":12.45
+		},
+		{
+			"ID":"047",
+			"Name":"Salt & Pepper Spareribs",
+			"CNAME":"甜酸骨",
+			"Price":12.45
+		},
+		{
+			"ID":"048",
+			"Name":"BBQ Pork with Mixed Vegetables",
+			"CNAME":"什菜叉燒",
+			"Price":12.45
+		},
+		{
+			"ID":"049",
+			"Name":"Honey BBQ Pork",
+			"CNAME":"蜜糖叉燒",
+			"Price":12.45
+		}
+		],
+		"Vegetables":[
+		{
+			"ID":"050",
+			"Name":"Garlic Mixed Vegetables",
+			"CNAME":"蒜蓉炒什菜",
+			"Price":11.50
+		},
+		{
+			"ID":"051",
+			"Name":"Mixed Vegetables with Black Bean Sauce",
+			"CNAME":"豉汁什菜",
+			"Price":11.50
+		},
+		{
+			"ID":"052",
+			"Name":"Tofu with Mixed Vegetables",
+			"CNAME":"豆腐什菜",
+			"Price":12.45
+		},
+		{
+			"ID":"053",
+			"Name":"Salt & Pepper Eggplants",
+			"CNAME":"椒鹽茄子",
+			"Price":12.45
+		}
+		],
+		"Egg Foo Yong":[
+		{
+			"ID":"054",
+			"Name":"Chicken Egg Foo Yong",
+			"CNAME":"芙蓉雞",
+			"Price":12.95
+		},
+		{
+			"ID":"055",
+			"Name":"BBQ Pork Egg Foo Yong",
+			"CNAME":"叉燒芙蓉",
+			"Price":12.95
+		},
+		{
+			"ID":"056",
+			"Name":"Mushroom Egg Foo Yong",
+			"CNAME":"磨菇芙蓉",
+			"Price":12.95
+		},
+		{
+			"ID":"057",
+			"Name":"Shrimp Egg Foo Yong",
+			"CNAME":"蝦芙蓉",
+			"Price":12.95
+		},
+		{
+			"ID":"058",
+			"Name":"Vegetable Egg Foo Yong",
+			"CNAME":"什菜芙蓉",
+			"Price":12.95
+		}
+		],
+		"Chop Suey":[
+		{
+			"ID":"059",
+			"Name":"Special Chop Suey",
+			"CNAME":"特別雜碎",
+			"Price":14.45
+		},
+		{
+			"ID":"060",
+			"Name":"Seafood Chop Suey",
+			"CNAME":"海鮮雜碎",
+			"Price":14.45
+		},
+		{
+			"ID":"061",
+			"Name":"Chicken Chop Suey",
+			"CNAME":"雞雜碎",
+			"Price":12.45
+		},
+		{
+			"ID":"062",
+			"Name":"Beef Chop Suey",
+			"CNAME":"牛肉雜碎",
+			"Price":12.45
+		},
+		{
+			"ID":"063",
+			"Name":"BBQ Chop Suey",
+			"CNAME":"叉燒雜碎",
+			"Price":12.45
+		},
+		{
+			"ID":"064",
+			"Name":"Vegetable Chop Suey",
+			"CNAME":"菜雜碎",
+			"Price":12.45
+		}
+		],
+		"Noodles":[
+		{
+			"ID":"065",
+			"Name":"Special Chow Mein",
+			"CNAME":"特別炒麵",
+			"Price":15.45
+		},
+		{
+			"ID":"066",
+			"Name":"Seafood Chow Mein",
+			"CNAME":"海鮮炒麵",
+			"Price":15.45
+		},
+		{
+			"ID":"067",
+			"Name":"Shrimp Chow Mein",
+			"CNAME":"蝦炒麵",
+			"Price":14.45
+		},
+		{
+			"ID":"068",
+			"Name":"Cantonese Chow Mein",
+			"CNAME":"廣東炒麵",
+			"Price":14.45
+		},
+		{
+			"ID":"069",
+			"Name":"Chicken Chow Mein",
+			"CNAME":"雞炒麵",
+			"Price":13.45
+		},
+		{
+			"ID":"070",
+			"Name":"BBQ Pork Chow Mein",
+			"CNAME":"叉燒炒麵",
+			"Price":13.45
+		},
+		{
+			"ID":"071",
+			"Name":"Beef Chow Mein",
+			"CNAME":"牛肉炒麵",
+			"Price":13.45
+		},
+		{
+			"ID":"072",
+			"Name":"Vegetable Chow Mein",
+			"CNAME":"菜炒麵",
+			"Price":12.45
+		},
+		{
+			"ID":"073",
+			"Name":"Shanghai Chow Mein",
+			"CNAME":"上海炒麵",
+			"Price":13.45
+		},
+		{
+			"ID":"074",
+			"Name":"Nanjing Chow Mein",
+			"CNAME":"南京炒麵",
+			"Price":14.45
+		},
+		{
+			"ID":"075",
+			"Name":"Singapore Rice Noodles",
+			"CNAME":"星洲炒米",
+			"Price":13.45
+		}
+		],
+		"Rice":[
+		{
+			"ID":"076",
+			"Name":"Special Fried Rice",
+			"CNAME":"特別炒飯",
+			"Price":12.45
+		},
+		{
+			"ID":"077",
+			"Name":"Shrimp Fried Rice",
+			"CNAME":"蝦炒飯",
+			"Price":12.45
+		},
+		{
+			"ID":"078",
+			"Name":"Chicken Fried Rice",
+			"CNAME":"雞炒飯",
+			"Price":12.45
+		},
+		{
+			"ID":"079",
+			"Name":"BBQ Pork Fried Rice",
+			"CNAME":"叉燒炒飯",
+			"Price":12.45
+		},
+		{
+			"ID":"080",
+			"Name":"Beef Fried Rice",
+			"CNAME":"牛肉炒飯",
+			"Price":12.45
+		},
+		{
+			"ID":"081",
+			"Name":"Vegetable Fried Rice",
+			"CNAME":"菜炒飯",
+			"Price":12.45
+		},
+		{
+			"ID":"082",
+			"Name":"Mushroom Fried Rice",
+			"CNAME":"磨菇炒飯",
+			"Price":12.45
+		},
+		{
+			"ID":"083",
+			"Name":"Plain Fried Rice",
+			"CNAME":"炒飯",
+			"Price":12.45
+		},
+		{
+			"ID":"084",
+			"Name":"Steamed Rice",
+			"CNAME":"白飯",
+			"Price":1.95
+		}
+		],
+		"Western":[
+		{
+			"ID":"085",
+			"Name":"Chicken Fingers",
+			"CNAME":"炸雞手指",
+			"Price":8.95
+		},
+		{
+			"ID":"086",
+			"Name":"Plain Hamburger",
+			"CNAME":"漢堡包",
+			"Price":8.95
+		},
+		{
+			"ID":"087",
+			"Name":"Plain Cheese Burger",
+			"CNAME":"芝士漢堡包",
+			"Price":9.95
+		}
+		],
+		"Beverages":[
+		{
+			"ID":"501",
+			"Name":"Soft Drink",
+			"Price":1.95
+		},
+		{
+			"ID":"502",
+			"Name":"Milk/Juice",
+			"Sizes":["Small", "Large"],
+			"Price":[1.75, 2.25]
+		},
+		{
+			"ID":"503",
+			"Name":"Coffee",
+			"Price":2.25
+		},
+		{
+			"ID":"504",
+			"Name":"Regular Tea",
+			"Price":1.95
+		},
+		{
+			"ID":"505",
+			"Name":"Chinese Tea",
+			"Price":1.45
+		},
+		{
+			"ID":"506",
+			"Name":"Hot Chocolate",
+			"Price":2.25
+		}
+		],
+		"Alcoholic Beverages":[
+		{
+			"ID":"507",
+			"Name":"Red or White House Wine",
+			"Price":5.95
+		},
+		{
+			"ID":"508",
+			"Name":"Red or White House Wine",
+			"Price":21.95
+		},
+		{
+			"ID":"509",
+			"Name":"Ceasar",
+			"Price":6.45
+		},
+		{
+			"ID":"510",
+			"Name":"Screwdriver",
+			"Price":6.45
+		},
+		{
+			"ID":"511",
+			"Name":"Rum, Rye, or Vodka with Pop",
+			"Price":6.45
+		},
+		{
+			"ID":"512",
+			"Name":"Domestic Beer",
+			"Price":5.25
+		},
+		{
+			"ID":"513",
+			"Name":"Import Beer",
+			"Price":6.25
+		}
+		],
+		"Combinations":[
+		{
+			"ID":"601",
+			"Name":"Lunch Special",
+			"Price":11.75
+		},
+		{
+			"ID":"602",
+			"Name":"LS Extra Item",
+			"Price":3.00
+		},
+		{
+			"ID":"603",
+			"Name":"Dinner for 1",
+			"Price":13.95
+		},
+		{
+			"ID":"604",
+			"Name":"Din 1 Extra Item",
+			"Price":3.50
+		},
+		{
+			"ID":"603",
+			"Name":"Dinner for 2",
+			"Price":30.95
+		},
+		{
+			"ID":"603",
+			"Name":"Dinner for 3",
+			"Price":49.95
+		},
+		{
+			"ID":"603",
+			"Name":"Dinner for 4",
+			"Price":64.95
+		},
+		{
+			"ID":"603",
+			"Name":"Dinner for 6",
+			"Price":92.95
+		}
+		]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "POS",
+  "version": "0.0.1",
+  "description": "App",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.15.3",
+    "jsonfile": "^3.0.1",
+    "socket.io": "latest"
+  },
+  "author": "John Chan"
+}
