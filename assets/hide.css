@@ -24,11 +24,13 @@
 	margin-left: 5px !important;
 }
 
-#orderSidebar {
+.orderSidebar {
 	width: 40%;
 	float: left;
 	margin-top: 0.5%;
 	position: fixed;
+	height: 49vh;
+	overflow: auto;
 }
 
 #buttonsContainer {
@@ -52,4 +54,34 @@
 .lines {
 	padding: 2%;
 	margin-left: 1%;
+}
+
+#orderTotals {
+	margin-top: 50vh;
+	height: auto;
+}
+
+#totalPrice {
+	visibility: none;
+}
+
+.totals {
+	margin-top: 5%;
+}
+
+.totals-identifier {
+	float: left;
+	padding: 2%;
+	margin-left: 50%;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.totals-value {
+	float: right;
+	width: 30%;
+}
+
+.totals-value::before{
+	content: "$";
 }
