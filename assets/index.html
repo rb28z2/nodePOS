@@ -25,6 +25,7 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+	<script src="functions.js"></script>
 </head>
 <script src="/socket.io/socket.io.js"></script>
 
@@ -147,7 +148,8 @@
 			
 			for (var index = 0; index < CLen; index++)
 			{
-				var toInsert = "<button id='btn " + index + '.' + Category[index] + "' type='submit' onclick='showCategory(" + "\"" + Category[index]+"\")' class='btn btn-default buttonStyle categoryButton'>" + Category[index] + "</button></span>";
+				var name = Category[index].replace(/\s/g, '');
+				var toInsert = "<button id='" + index + '.' + name + "' type='submit' onclick='showCategory(" + "\"" + name +"\")' class='btn btn-default buttonStyle categoryButton'>" + Category[index] + "</button></span>";
 				$("#categoryButtons").append(toInsert);
 			}
 			
@@ -156,7 +158,8 @@
             for (var index1 = 0; index1 < CLen; index1++) {
                 //writes catergory name in id
                 //document.getElementById("uInput").innerHTML="<div id='" + Category[index1] + "'";
-                var toInsert = "<div id='" + Category[index1] + "'" + "<span>";
+				var name = Category[index1].replace(/\s/g, '');
+                var toInsert = "<div class=categoryItems id='" + name + "'" + "<span>";
                 //goes through each categories item and display as button
                 for (var index2 = 0; index2 < Items[Category[index1]].length; index2++) {
                     var iName = Items[Category[index1]][index2]["Name"];
@@ -187,15 +190,25 @@
         function add2List(iName, iPrice) {
             itemsInOrder++;
             var lineItem = "<div class='lines'><span class='lineName'>" + iName + "</span><span class='linePrice'>" + iPrice.toFixed(2) + "</span>";
+			lineItem += "<div class='lineOptions'>Options here</div>";
             $("#orderItems").append(lineItem);
             totalPrice = totalPrice + iPrice;
             //console.log(totalPrice);
             $("#subTotal").text(totalPrice.toFixed(2));
             $("#taxAmount").text((totalPrice * 0.05).toFixed(2));
 			$("#totalAmount").text((totalPrice * 1.05).toFixed(2));
-			$("#itemsSidebar").scrollTop($("#itemsSidebar               ")[0].scrollHeight);
+			$("#itemsSidebar").scrollTop($("#itemsSidebar")[0].scrollHeight);
 			
         }
+		
+		function showCategory(category) {
+			toShow = "#" + category;
+			$(".categoryItems").hide();
+			$(toShow).show();
+		}
+		
+		
+		
     </script>
     <!-- TEST!!!!!!!!!!!!!! -->
     <!-- Bootstrap core JavaScript

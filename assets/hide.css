@@ -42,6 +42,11 @@ hr {
 
 .categoryButton {
 	background-color: #E3F2FD;
+	height: 60px !important;
+}
+
+.categoryItems {
+	display: none;
 }
 
 #menuContainer {
@@ -50,7 +55,7 @@ hr {
 }
 
 .lineName {
-	width: 30%;
+	width: 45%;
 	text-overflow: ellipsis;
 	float: left;
 	white-space: nowrap;
@@ -65,6 +70,14 @@ hr {
 .lines {
 	padding: 2%;
 	margin-left: 1%;
+	margin-bottom: 10px;
+	font-size: large;
+}
+
+.lineOptions {
+	display: none;
+	margin-top: 6% !important;
+	font-size: smaller;
 }
 
 #orderTotals {
