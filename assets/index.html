@@ -102,6 +102,7 @@
         <!--to hide user input page-->
 		<div id="menuContainer">
 			<div id="categoryButtons"></div>
+			<hr>
 			<div id="buttonsContainer"></div>
 		</div>
             <!-- BUTTONS -->
@@ -146,7 +147,7 @@
 			
 			for (var index = 0; index < CLen; index++)
 			{
-				var toInsert = "<button id='btn " + index + '.' + Category[index] + "' type='submit' onclick='showCategory(" + "\"" + Category[index]+"\")' class='btn btn-default buttonStyle'>" + Category[index] + "</button></span>";
+				var toInsert = "<button id='btn " + index + '.' + Category[index] + "' type='submit' onclick='showCategory(" + "\"" + Category[index]+"\")' class='btn btn-default buttonStyle categoryButton'>" + Category[index] + "</button></span>";
 				$("#categoryButtons").append(toInsert);
 			}
 			

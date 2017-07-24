@@ -16,12 +16,19 @@
 	background-color: white;
     color: black;
     border: 2px solid #555555;
+	text-overflow: ellipsis;
+	overflow: hidden;
 }
 
 .listStyle {
 	width: 100% !important;
 	margin-top: 10px;
 	margin-left: 5px !important;
+}
+
+hr {
+	border-top: 1px solid #000;
+	width: 80%;
 }
 
 .orderSidebar {
@@ -31,6 +38,10 @@
 	position: fixed;
 	height: 49vh;
 	overflow: auto;
+}
+
+.categoryButton {
+	background-color: #E3F2FD;
 }
 
 #menuContainer {
