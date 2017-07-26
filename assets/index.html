@@ -53,9 +53,9 @@
                     </li>
                     <li onclick="hideDiv('options')"><a href="#OPTIONS" data-toggle="tab">OPTIONS</a>
                     </li>
+					<!-- TEMP -->
                     <li onclick="hideDiv('uInput')"><a href="#uInput" data-toggle="tab">uInput</a>
                     </li>
-                    <!--temp-->
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -103,7 +103,7 @@
         <!--to hide user input page-->
 		<div id="menuContainer">
 			<div id="categoryButtons"></div>
-			<hr>
+			<hr> <!-- separater line -->
 			<div id="buttonsContainer"></div>
 		</div>
             <!-- BUTTONS -->
@@ -127,6 +127,7 @@
 				</div>
 			</div>
     </div>
+	<!-- Menu Items Script -->
     <script type="text/javascript">
         //takes all of the php json data and moves it into javascript
         var socket = io();
@@ -144,7 +145,6 @@
 
             var Category = ["Appetizer", "Soups", "Seafood", "Chicken", "Beef", "Pork", "Vegetables", "Egg Foo Yong", "Chop Suey", "Noodles", "Rice", "Western", "Beverages", "Alcoholic Beverages", "Combinations"]
             CLen = Category.length;
-            //for color coding items/ at later time
 			
 			for (var index = 0; index < CLen; index++)
 			{
@@ -153,7 +153,6 @@
 				$("#categoryButtons").append(toInsert);
 			}
 			
-            var Colors = ["Red", "Blue", "Etc"]
                 //loop through CLen to get name of Category
             for (var index1 = 0; index1 < CLen; index1++) {
                 //writes catergory name in id
@@ -163,7 +162,7 @@
                 //goes through each categories item and display as button
                 for (var index2 = 0; index2 < Items[Category[index1]].length; index2++) {
                     var iName = Items[Category[index1]][index2]["Name"];
-                    var iCName = Items[Category[index1]][index2]["CNAME"]; //add this data into a multi layer array
+                    var iCName = Items[Category[index1]][index2]["CNAME"];
                     var iPrice = Items[Category[index1]][index2]["Price"];
                     toInsert = toInsert + "<button id='btn " + index1 + '.' + index2 + "' type='submit' onclick='add2List(\"" + iName + "\", " + iPrice + ")' class='btn btn-default buttonStyle'>" + iName + "</button></span>";
                     //add2List is the function to add the price and name stuff to list
@@ -171,7 +170,6 @@
 
                     //data-name='" + iName + "' data-cname='" + iCName + "' data-iPrice='" + iPrice + "'
                     //document.write("</span>");
-
 
                 }
                 toInsert = toInsert + "</div>";
@@ -185,18 +183,17 @@
         console.log("Initial price ", totalPrice);
 
 
-        //problem it only outputs data onto the table, all data must go to a seperate file to be transferred to other areas/ printing, storage, etc
-        //process button click
+        //Adds selected item to sidebar list and calculates totals
         function add2List(iName, iPrice) {
             itemsInOrder++;
             var lineItem = "<div class='lines'><span class='lineName'>" + iName + "</span><span class='linePrice'>" + iPrice.toFixed(2) + "</span>";
-			lineItem += "<div class='lineOptions'>Options here</div>";
+			lineItem += "<div class='lineOptions'>Options here options here options here</div>";
             $("#orderItems").append(lineItem);
             totalPrice = totalPrice + iPrice;
             //console.log(totalPrice);
-            $("#subTotal").text(totalPrice.toFixed(2));
+            $("#subTotal").text(totalPrice.toFixed(2)); //forces 2 decimal places
             $("#taxAmount").text((totalPrice * 0.05).toFixed(2));
-			$("#totalAmount").text((totalPrice * 1.05).toFixed(2));
+			$("#totalAmount").text((totalPrice * 1.05).toFixed(2)); //forces the list to scroll to last item inputted
 			$("#itemsSidebar").scrollTop($("#itemsSidebar")[0].scrollHeight);
 			
         }
@@ -211,8 +208,7 @@
 		
     </script>
     <!-- TEST!!!!!!!!!!!!!! -->
-    <!-- Bootstrap core JavaScript
-			================================================== -->
+    <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>
