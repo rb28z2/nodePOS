@@ -76,6 +76,10 @@ hr {
 	font-size: large;
 }
 
+.selected {
+	background-color: cyan;
+}
+
 .lineOptions {
 	display: none;
 	font-size: smaller;
@@ -85,6 +89,7 @@ hr {
 #orderTotals {
 	margin-top: 50vh;
 	height: auto;
+	font-size: large;
 }
 
 #totalPrice {
