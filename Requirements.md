@@ -10,6 +10,8 @@ Node POS Requirements
     - Categorize item buttons
     - Dish modification
         - +/- spicy, allergy, etc
+		
+- convert hard coded pixel measurements to relative measurements as needed
 
 - New order system
     - Tables tab 
