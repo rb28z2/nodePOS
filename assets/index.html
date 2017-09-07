@@ -189,7 +189,8 @@
             itemsInOrder++;
             var lineItem = "<div class='lines'><span class='lineName'>" + iName + "</span><span class='linePrice'>" + iPrice.toFixed(2) + "</span>";
 			//add dish modifier buttons here
-			lineItem += "<div class='lineOptions'>Options here options here options here</div>";
+			//delete button
+			lineItem += "<span class='lineOptions'>		<button>Delete</button>		<button>Void</button>	<button>Modify</button>		<button>Quantity</button>		</span>";
 			//highlighting
             $("#orderItems").append(lineItem);
             totalPrice = totalPrice + iPrice;
@@ -200,6 +201,10 @@
 			$("#itemsSidebar").scrollTop($("#itemsSidebar")[0].scrollHeight);
 			
         }
+		
+		function deleteButton(){
+		
+		}
 		
 		//changes menu items depending on selected category
 		function showCategory(category) {
