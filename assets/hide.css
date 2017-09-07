@@ -50,34 +50,46 @@ hr {
 }
 
 #menuContainer {
+	display: inline-table;
 	width: 60%;
 	float: right;
 }
 
+/*Order List*/
+
 .lineName {
-	display: inline-block;
-	width: 50%;
+	display: table-cell;
+	width: 80%; 
 	text-overflow: ellipsis;
+	text-align: left;
 	float: left;
-	white-space: nowrap;
 	overflow: hidden;
+	white-space: nowrap;
 }
 
 .linePrice {
-	width: 50%;
+	display: table-cell;
+	width: 20%;
 	text-align:right;
 	float: right;
+	align: right;
 }
 
 .lines {
+	display: table-row;
 	padding: 2%;
 	margin-left: 1%;
 	margin-bottom: 10px; 
 	font-size: large;
 }
 
+/*List Item Options */
 .selected {
 	background-color: cyan;
+}
+
+.itemOptions{
+	display: table-cell;
 }
 
 .lineOptions {
@@ -86,6 +98,7 @@ hr {
 	float:left;
 }
 
+/*Order List Totals*/
 #orderTotals {
 	margin-top: 50vh;
 	height: auto;

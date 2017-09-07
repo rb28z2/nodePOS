@@ -78,7 +78,7 @@
         </div>
     </div>
     <!-- /.container -->
-    <!--TAKEOUT-->
+    <!--TAKEOUT--> 
     <div class="container">
         <div id="takeout" class="defaultshow">
             <h1>TAKEOUT</h1>
@@ -130,7 +130,7 @@
     </div>
 	<!-- Menu Items Script -->
     <script type="text/javascript">
-        //takes all of the php json data and moves it into javascript
+        //takes all of the json data and moves it into javascript
         var socket = io();
         console.log("Starting socket.io");
 
@@ -177,8 +177,7 @@
                 $("#buttonsContainer").append(toInsert);
             }
         });
-
-
+		//default starting totals for order
         var itemsInOrder = 0;
         var totalPrice = 0;
         console.log("Initial price ", totalPrice);
@@ -187,10 +186,14 @@
         //Adds selected item to sidebar list and calculates totals
         function add2List(iName, iPrice) {
             itemsInOrder++;
-            var lineItem = "<div class='lines'><span class='lineName'>" + iName + "</span><span class='linePrice'>" + iPrice.toFixed(2) + "</span>";
+            var lineItem = "<div class='lines'><span class='lineName'>" + iName + "</span>		<span class='linePrice'>" + iPrice.toFixed(2) + "</span>";
 			//add dish modifier buttons here
+<<<<<<< HEAD
 			//delete button
 			lineItem += "<span class='lineOptions'>		<button>Delete</button>		<button>Void</button>	<button>Modify</button>		<button>Quantity</button>		</span>";
+=======
+			lineItem += "<div class='lineOptions'> <div class='itemOptions'>delete</div>	<div class='itemOptions'>options</div>	</div>";
+>>>>>>> bf6a3344d13a5fe1d2e816eba01b9d0e8f3e0385
 			//highlighting
             $("#orderItems").append(lineItem);
             totalPrice = totalPrice + iPrice;
